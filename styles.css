@@ -103,34 +103,45 @@ nav {
 .about-me{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr); 
+    grid-template-rows: 100px 1fr 1fr; 
     padding: 40px;
+}
+.title-about-me{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.about-me h2{
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
 }
 
 .me-hobbies{
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 2/3;
     display: flex;
     flex-direction: column;
     justify-content: center; 
     background-color: #F6F7F8;
     border-radius: 20px; 
-    margin: 35px;   
+    margin: 5px 35px 35px 35px;   
 }
 .me-goals{
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 2/3;
     display: flex;
     flex-direction: column;
     justify-content: center; 
     background-color: #F6F7F8;
     border-radius: 20px;
-    margin: 35px;   
+    margin: 5px 35px 35px 35px;   
 
 }
 .me-studies{
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 3/4;
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -141,7 +152,7 @@ nav {
 }
 .me-job{
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 3/4;
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -166,21 +177,31 @@ nav {
     padding: 15px;
 }
 
-
+/* Skills */
 .skills{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 100px 1fr 1fr 1fr; 
     padding: 20px;
     margin-top: 0;
     margin-left: 250px;
     margin-right: 250px;
     margin-bottom: 0;
 }
-
+.title-skills{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.title-skills h2{
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+}
 .skill-windows{
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 2/3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,10 +210,9 @@ nav {
     margin: 15px;
     border-radius: 20px;
 }
-
 .skill-terminal{
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 2/3;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -201,10 +221,9 @@ nav {
     margin: 15px;
     border-radius: 20px;
 }
-
 .skill-html{
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 3/4;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -212,10 +231,9 @@ nav {
     margin: 15px;
     border-radius: 20px;
 }
-
 .skill-css{
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 3/4;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -224,10 +242,9 @@ nav {
     margin: 15px;
     border-radius: 20px;
 }
-
 .skill-java{
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 4/5;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -236,10 +253,9 @@ nav {
     margin: 15px;
     border-radius: 20px;
 }
-
 .skill-cisco{
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 4/5;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -249,7 +265,6 @@ nav {
     border-radius: 20px;
 
 }
-
 .mb-2{
     margin: auto;
 }
@@ -258,6 +273,7 @@ nav {
 }
 
 
+/* Footer */
 footer {
     margin-top: 50px;
     background-color: #333;
@@ -267,11 +283,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
 footer h3 {
     margin-bottom: 5px;
 }
-
 footer h3 {
     font-size: 40px;
     margin: 0;
@@ -280,8 +294,6 @@ footer h4 {
     font-size: 35px;
     margin: 0;
 }
-
-
 
 
 
@@ -312,7 +324,6 @@ footer h4 {
             border-radius: 40px;
         }
     }
-
 @media screen and (min-width: 801px) and (max-width: 1000px){
     /* Navbar */
         .burguer {
