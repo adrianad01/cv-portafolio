@@ -112,7 +112,8 @@
     </section>
 
     <!-- CV -->
-        <div>
+    <section class="cv">
+        <div class="title-cv">
             <h2>Curriculum Vitae</h2>
         </div>
       <div class="card mb-2" style="width: 18rem;">
@@ -122,27 +123,34 @@
           <a href="./assets/CV JESUS ADRIAN ALCOCER DOÑEZ.pdf" download="CV Jesús Adrián Alcocer Dóñez" class="btn btn-primary">Download CV</a>
         </div>
       </div>
-
+    </section>
     <!-- Portafolio -->
     <section class="portfolio" id="portfolio">
-        <h2>Portfolio</h2>
-        <h5>Building</h5>
-        <i class="fa-solid fa-spinner"></i>
+        <div class="title-portfolio">
+            <h2>Portfolio</h2>
+        </div>
+        <div class="content-portfolio">
+            <h4>Building.. <i class="fa-solid fa-spinner fa-spin"></i></h4>
+        </div>
     </section>
  
     <!-- Contacto -->
-    <div>
-        <h2>Contact</h2>
-    </div>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
-      </div>
-
+    <section class="contact" id="contact">
+        <div class="title-contact">
+            <h2>Contact</h2>
+        </div>
+        <div class="form-email">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+          </div>
+          <div class="form-textarea">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </section>
+    
+    <!-- Footer -->
     <footer>
         <h3>Develop By Adrián Alcocer</h3>
         <h4><i class="fa-regular fa-copyright"></i> 2023</h4>
