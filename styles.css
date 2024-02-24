@@ -25,17 +25,14 @@ nav {
     align-items: center;
     padding: 0 50px;
 }
-
 .menu {
     display: flex;
     margin-left: auto; /* Alinea los elementos del menú a la derecha */
 }
-
 .menu li {
     list-style: none;
     margin: 0 15px;
 }
-
 .menu .menu-i {
     text-decoration: none;
     color: #000000;
@@ -43,21 +40,18 @@ nav {
     transition: all 0.5s ease;
     font-size: 20px;
 }
-
 .menu .menu-i:hover {
     color: #ffffff;
     background-color: #000000;
     padding: 8px;
     /* border-radius: 5px; */
 }
-
 .burguer {
     font-size: 25px;
     cursor: pointer;
     display: none;
     color: #ffffff;
 }
-
 
 /* HOME */
 .home{
@@ -186,6 +180,14 @@ nav {
     margin-right: 250px;
     margin-bottom: 0;
 }
+.skills h3{
+    font-size: 28px
+}
+.skills h4{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
 .title-skills{
     grid-column: 1/3;
     grid-row: 1/2;
@@ -197,7 +199,7 @@ nav {
     text-align: center;
     padding: 0;
 }
-.skill-windows{
+.skill-techsupport{
     grid-column: 1/2;
     grid-row: 2/3;
     display: flex;
@@ -208,7 +210,7 @@ nav {
     margin: 15px;
     border-radius: 20px;
 }
-.skill-terminal{
+.skill-webdevelopment{
     grid-column: 2/3;
     grid-row: 2/3;
     display: flex;
@@ -219,7 +221,7 @@ nav {
     margin: 15px;
     border-radius: 20px;
 }
-.skill-html{
+.skill-database{
     grid-column: 1/2;
     grid-row: 3/4;
     display: flex;
@@ -229,7 +231,7 @@ nav {
     margin: 15px;
     border-radius: 20px;
 }
-.skill-css{
+.skill-networking{
     grid-column: 2/3;
     grid-row: 3/4;
     display: flex;
@@ -240,35 +242,32 @@ nav {
     margin: 15px;
     border-radius: 20px;
 }
-.skill-java{
-    grid-column: 1/2;
-    grid-row: 4/5;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center; 
-    background-color: #F6F7F8;
-    margin: 15px;
-    border-radius: 20px;
-}
-.skill-cisco{
-    grid-column: 2/3;
-    grid-row: 4/5;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center; 
-    background-color: #F6F7F8;
-    margin: 15px;
-    border-radius: 20px;
 
+.skill-techsupport .icons-containerSupport {
+    display: flex;
 }
-.mb-2{
-    margin: auto;
+.skill-techsupport .icons-containerSupport i {
+    margin-right: 15px; /* Espacio entre los iconos */
 }
-.mb-3{
-    margin: 30px 400px;
+.skill-webdevelopment .icons-container {
+    display: flex;
 }
+.skill-webdevelopment .icons-container i {
+    margin-right: 15px; /* Espacio entre los iconos */
+}
+.skill-database .icons-containerdb {
+    display: flex;
+}
+.skill-database .icons-containerdb i {
+    margin-right: 15px; /* Espacio entre los iconos */
+}
+.skill-networking .icons-containerNetwork {
+    display: flex;
+}
+.skill-networking .icons-containerNetwork i {
+    margin-right: 15px; /* Espacio entre los iconos */
+}
+
 /* CV */
 .cv{
     display: grid;
@@ -291,7 +290,12 @@ nav {
     text-align: center;
     padding: 0;
 }
-
+.mb-2{
+    margin: auto;
+}
+.mb-3{
+    margin: 30px 400px;
+}
 .card-body{
     grid-row: 2/3;
     grid-column: auto;
