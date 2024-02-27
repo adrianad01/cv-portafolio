@@ -3,16 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
 }
 a{
-    text-decoration: none;
-    font-size: 20px; 
+    font-size: 25px; 
     float: left;
-    padding-left: 50px;
 }
 
 /* MENU DE NAVEGACION */
@@ -23,6 +20,7 @@ nav {
     height: 10vh;
     display: flex;
     align-items: center;
+    margin: 10px 0px;
     padding: 0 50px;
 }
 .menu {
@@ -58,7 +56,8 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: 90vh;
+    height: 88vh;
+    margin: 10px;
 }
 .home-logo {
     display: flex;
@@ -99,6 +98,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 100px 1fr 1fr; 
     padding: 40px;
+    margin: 10px;
 }
 .title-about-me{
     grid-column: 1/3;
@@ -119,7 +119,7 @@ nav {
     justify-content: center; 
     background-color: #F6F7F8;
     border-radius: 20px; 
-    margin: 5px 35px 35px 35px;   
+    margin: 12px;   
 }
 .me-goals{
     grid-column: 2/3;
@@ -129,7 +129,7 @@ nav {
     justify-content: center; 
     background-color: #F6F7F8;
     border-radius: 20px;
-    margin: 5px 35px 35px 35px;   
+    margin: 12px;   
 
 }
 .me-studies{
@@ -140,7 +140,7 @@ nav {
     justify-content: center; 
     background-color: #F6F7F8;
     border-radius: 20px;
-    margin: 25px;   
+    margin: 12px;   
 
 }
 .me-job{
@@ -151,34 +151,37 @@ nav {
     justify-content: center; 
     background-color: #F6F7F8;
     border-radius: 20px;
-    margin: 35px;   
+    margin: 12px;   
 
 }
 .about-me h3{
     font-size: 40px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .about-me p{
  font-size: 16px;
  text-align: justify;
- padding-top: 15px;
+ padding-top: 10px;
 }
 .about-me i{
     text-align: center;
     font-size: 25px;
-    padding: 15px;
+    padding: 10px;
+}
+.about-me a{
+    text-decoration: none;
 }
 
 /* Skills */
 .skills{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px 1fr 1fr 1fr; 
-    padding: 20px;
-    margin-top: 0;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-bottom: 0;
+    grid-template-rows: 100px 1fr 1fr; 
+    padding: 25px;
+    margin: 10px;
+}
+.skills a{
+    text-decoration: none;
 }
 .skills h3{
     font-size: 28px
@@ -242,7 +245,6 @@ nav {
     margin: 15px;
     border-radius: 20px;
 }
-
 .skill-techsupport .icons-containerSupport {
     display: flex;
 }
@@ -274,10 +276,7 @@ nav {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 100px 1fr; 
     padding: 20px;
-    margin-top: 0;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-bottom: 0;
+    margin: 10px;
 }
 .title-cv{
     grid-column: auto;
@@ -289,6 +288,9 @@ nav {
     font-weight: bold;
     text-align: center;
     padding: 0;
+}
+.cv a{
+    text-decoration: none;
 }
 .mb-2{
     margin: auto;
@@ -307,10 +309,10 @@ nav {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 100px 100px; 
     padding: 20px;
-    margin-top: 0;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-bottom: 0;
+    margin: 10px;
+}
+.portfolio a{
+    text-decoration: none;
 }
 .title-portfolio{
     grid-column: auto;
@@ -348,6 +350,10 @@ nav {
     margin-bottom: 0;
     width: auto;
     height: auto;
+}
+.contact a{
+    text-decoration: none;
+    float: left;
 }
 .title-contact{
     grid-column: auto;
