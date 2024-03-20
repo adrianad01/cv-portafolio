@@ -170,6 +170,7 @@ nav {
 }
 .about-me a{
     text-decoration: none;
+    margin-left: 10%;
 }
 
 /* Skills */
@@ -182,6 +183,7 @@ nav {
 }
 .skills a{
     text-decoration: none;
+    margin-left: 10%;
 }
 .skills h3{
     font-size: 28px
@@ -397,55 +399,5 @@ footer h4 {
 
 
 
-@media screen and (max-width: 800px) {
-    /* Navbar */
-        .burguer {
-            display: block;
-        }
-        .menu {
-            position: fixed;
-            top: 10vh;
-            left: 0;
-            background: #cac7c7;
-            width: 100%;
-            height: 100%;
-            flex-direction: column;
-            align-items: center;
-            line-height: 100px;
-            transition: all 0.5s ease;
-            transform: translateX(-100%);
-        }
-        .menu.active {
-            transform: translateX(0);
-        }
-        .logo img {
-            width: 65px;
-            border-radius: 40px;
-        }
-    }
-@media screen and (min-width: 801px) and (max-width: 1000px){
-    /* Navbar */
-        .burguer {
-            display: block;
-        }
-        .menu {
-            position: fixed;
-            top: 10vh;
-            left: 0;
-            background: #cac7c7;
-            width: 100%;
-            height: 100%;
-            flex-direction: column;
-            align-items: center;
-            line-height: 100px;
-            transition: all 0.5s ease;
-            transform: translateX(-100%);
-        }
-        .menu.active {
-            transform: translateX(0);
-        }
-        .logo img {
-            width: 65px;
-            border-radius: 40px;
-        }
-    }
+
+    
